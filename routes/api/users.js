@@ -1,4 +1,5 @@
 const express = require("express");
+const config = require("config");
 const { check, validationResult } = require("express-validator");
 const req = require("express/lib/request");
 const res = require("express/lib/response");
@@ -7,7 +8,6 @@ const User = require("../../models/User");
 const gravatar = require("gravatar");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const config = require("config");
 
 // @route   GET api/users
 // @desc    Test route
