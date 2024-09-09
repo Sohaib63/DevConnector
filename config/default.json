@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://sohaibhafiz63:ipEny9PpChvWZeEd@devconnector.hr7es.mongodb.net/?retryWrites=true&w=majority&appName=DevConnector",
+  "mongoURI": "mongodb+srv://sohaibhafiz63:ipEny9PpChvWZeEd@devconnector.hr7es.mongodb.net/",
   "jwtSecret": "myssecrettoken"
 }
