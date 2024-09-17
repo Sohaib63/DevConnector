@@ -5,7 +5,10 @@ const router = express.Router();
 const auth = require("../../middleware/auth");
 const Profile = require("../../models/Profile");
 const User = require("../../models/User");
+<<<<<<< HEAD
 const { check, validationResult } = require("express-validator");
+=======
+>>>>>>> fda144c81b322cc482c418485d8d05fad6b0a42f
 
 // @route   GET api/profile/me
 // @desc    Get current user's profile
@@ -27,6 +30,7 @@ router.get("/me", auth, async (req, res) => {
     res.status(500).send("Server Error");
   }
 });
+<<<<<<< HEAD
 
 // @route   POST api/profile/
 // @desc    Create and Update Profile
@@ -105,5 +109,7 @@ router.post(
     }
   }
 );
+=======
+>>>>>>> fda144c81b322cc482c418485d8d05fad6b0a42f
 
 module.exports = router;
