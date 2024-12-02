@@ -1,6 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://sohaibhafiz63:ipEny9PpChvWZeEd@devconnector.hr7es.mongodb.net/",
-  "jwtSecret": "myssecrettoken",
-  "githubClientId": "Ov23liFqicRXgDWUTTqj",
-  "githubSecret": "2438032867bab94f436b9df84eb06538a5de8183"
-}
